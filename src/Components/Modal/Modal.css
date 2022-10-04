@@ -1,0 +1,28 @@
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f15bb5;
+    border-radius: 15px;
+    color: #fff;
+}
+.btn {
+    border: 0;
+    background-color: #fffffb;
+    width: 135px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: -4px -2px 1px #FFF;
+    background-color: #70e000;
+    color: #fff;
+    text-transform: uppercase;
+}
+.btn:active {
+    box-shadow: none;
+}
+.btn--alert {
+    background-color: #ff6b6c;
+}

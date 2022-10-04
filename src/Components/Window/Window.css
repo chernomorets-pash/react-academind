@@ -1,0 +1,25 @@
+.window {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    box-shadow: 3px 3px 10px #00bbf9;
+    border-radius: 15px;
+    margin: 20px;
+    background-color: #9b5de5;
+    color: #fff;
+}
+.window__btn {
+    width: 70px;
+    height: 45px;
+    border: none;
+    background-color: #fee440;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px black;
+}
+.window__btn:active {
+    box-shadow: 0px 0px 0px black;
+}

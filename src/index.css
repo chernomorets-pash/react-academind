@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@100;500;700&display=swap');
+.App {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: #00f5d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 4px dotted #f15bb5;
+    color: #00bbf9;
+    font-family: 'Montserrat', sans-serif;
+}
+.todo__title {
+    font-weight: 100;
+    font-size: 1rem;
+}
